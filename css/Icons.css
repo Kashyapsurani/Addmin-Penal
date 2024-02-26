@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: fixed;
+    display: flex;
+    background: #faf3fd;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-weight: weight;
+   font-style: normal;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sidebar{
+    
+    width: 14%;
+    border: 2px solid rgb(255, 255, 255);
+    height: 953px;
+    position: sticky; 
+    background: fixed;
+    top: 0; 
+}
+.logos{
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+}
+.firstlogo{
+    display: flex;
+    justify-content:start ;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.heding{
+    margin-bottom: 50px;
+}
+.hedings{
+    color: black;
+    text-decoration:none;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+a{
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+h5{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 42px;
+    font-family: "Public Sans", sans-serif;
+     font-optical-sizing: auto;
+        font-weight: weight;
+    font-style: normal;
+
+}
+
+.navbar{
+    
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.userlogos{
+    margin-left:20px ;
+    margin-right: 10px;
+
+}
+.shidesho{
+    padding: 8px 0px;
+    position: fixed;
+    top: 100px;
+    background: white;
+}
+
+.profit{
+    margin-top: 10px;
+    width: 300px;
+    padding: 4px 16px;
+    display: flex;
+    color: #7f8d9cde;
+    align-items: center;
+}
+h4{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.datasofaddmin{
+    display: flex;
+}
+.logo{
+    height: 10px;
+    margin-bottom: 80px;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: left;
+}
+.manu{
+    display: none;
+}
+
+.sarchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1000px ;
+    background: rgb(255, 255, 255);
+
+}
+.umain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.input{
+    
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.userlogoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    
+}
+
+
+/* main css start */
+.umain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.input{
+    
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+.userlogos{
+    margin-left:30px ;
+    margin-right: 10px;
+
+}
+
+.userlogoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.firsts{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 100px;
+    border-radius: 25px;
+
+    margin-left: 30px;
+
+}
+
+@media only screen and (min-width: 425px)  and (max-width: 1024px) {
+
+
+    .sidebar{
+        width: 30%;
+        display: none;
+        position: fixed;
+        background: white;
+        top: 100px;
+    }
+    
+    .manu{  
+      display: flex;
+    }
+    .navbar{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .sarchbar{
+        display: none;
+    }
+    .first{
+        display: block;
+        
+    }
+
+    .maincontents{
+        width: 500px;
+        margin-left: 200px;
+    }
+
+    .content{
+        width: 100px;
+        height: 100px;
+        margin: 0%;
+
+    }
+
+    .mainspasgs{
+        padding-top: 60%;
+        width: 60px;
+         height: 100px;
+        background: white;
+
+    }
+}

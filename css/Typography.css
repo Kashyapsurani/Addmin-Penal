@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: fixed;
+    display: flex;
+    background: #faf3fd;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-weight: weight;
+   font-style: normal;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sidebar{
+    
+    width: 14%;
+    border: 2px solid rgb(255, 255, 255);
+    height: 953px;
+    position: sticky; 
+    background: fixed;
+    top: 0; 
+}
+.logos{
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+}
+.firstlogo{
+    display: flex;
+    justify-content:start ;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.heding{
+    margin-bottom: 50px;
+}
+.hedings{
+    color: black;
+    text-decoration:none;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+a{
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+h5{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 42px;
+    font-family: "Public Sans", sans-serif;
+     font-optical-sizing: auto;
+        font-weight: weight;
+    font-style: normal;
+
+}
+
+.navbar{
+    
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.userlogos{
+    margin-left:20px ;
+    margin-right: 10px;
+
+}
+.shidesho{
+    padding: 8px 0px;
+    position: fixed;
+    top: 100px;
+    background: white;
+}
+
+.profit{
+    margin-top: 10px;
+    width: 300px;
+    padding: 4px 16px;
+    display: flex;
+    color: #7f8d9cde;
+    align-items: center;
+}
+h4{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.datasofaddmin{
+    display: flex;
+}
+.logo{
+    height: 10px;
+    margin-bottom: 80px;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: left;
+}
+.manu{
+    display: none;
+}
+
+.sarchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1000px ;
+    background: rgb(255, 255, 255);
+
+}
+.umain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.input{
+    
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.userlogoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    
+}
+
+ /* start main css */
+.mains{
+   
+    justify-content: center;
+    text-align: center;
+}
+.first{
+    margin-top: 30px;
+    background-color: white;
+    width: 96%;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-weight: weight;
+   font-style: normal;
+}
+.Heading1{
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 300;
+    color: rgb(115, 130, 152);
+}
+
+.Heading2{
+    font-size: 3.75rem ;
+    line-height: 3.75rem;
+    font-weight: 300;
+    color: rgb(115, 130, 152);
+}
+
+.Heading3{
+    font-size: 2.125rem ;
+    line-height: 2.5rem ;
+    font-weight: 400;
+    color: rgb(115, 130, 152);
+}
+.Heading4{
+    font-size: 2.125rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: rgb(115, 130, 152);
+}
+.Heading5{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+    color: rgb(115, 130, 152);
+}
+
+.Heading6{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    font-weight: 500;
+    color: rgb(115, 130, 152);
+}
+
+/* 2end cantener start */
+.secend{
+    margin-top: 30px;
+    background-color: white;
+    width: 96%;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-weight: weight;
+   font-style: normal;
+}
+.firsts{
+    display: flex;
+    color: gray;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-weight: weight;
+   font-style: normal;
+}
+.text-subtitle-1{
+    margin-right: 100px;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+}
+
+.textsubtitle-1{
+    margin-left: 200px;
+}
+
+.text-subtitle-2{
+    margin-right: 100px;
+    font-size:  0.875rem;
+    line-height: 1.375rem;
+    font-weight:  500;
+}
+
+.textsubtitle-2{
+    margin-left: 200px;
+}
+
+.text-subtitle-3{
+    margin-right: 100px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.textsubtitle-3{
+    margin-left: 200px;
+}
+
+.text-subtitle-4{
+    margin-right: 100px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400
+}
+
+.textsubtitle-4{
+    margin-left: 200px;
+}
+
+
+.text-subtitle-5{
+    margin-right: 120px;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.textsubtitle-5{
+    margin-left: 200px;
+}
+
+.text-subtitle-6{
+    margin-right: 100px;
+    font-size: 0.75rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.textsubtitle-6{
+    margin-left: 200px;
+}
+
+.text-subtitle-7{
+    margin-right: 100px;
+    font-size: 0.875rem;
+    line-height: 2.25rem;
+    font-weight: 500;
+}
+
+.textsubtitle-7{
+    margin-left: 200px;
+}
+
+/* start tha footer */
+footer{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10px;
+    
+}
+
+
+@media only screen and (min-width: 425px)  and (max-width: 1024px) {
+
+    body{
+        margin-left: 50px;
+    }
+    .sidebar{
+        width: 25%;
+     display: none;
+     position: fixed;
+     background: white;
+     top: 100px;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .sarchbar{
+        display: flex;
+        margin: 0%;
+    }
+
+    .manu{
+    display: flex;
+    }
+
+    .contnt{
+        width: 950px;
+    }
+
+    .contnt2{
+        width: 950px;
+    }
+}
+
+@media only screen and (min-width: 375px)  and (max-width: 425px) {
+    .sidebar{
+     display: none;
+     position: fixed;
+     background: white;
+     top: 100px;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    .sarchbar{
+        display: flex;
+        margin: 0%;
+    }
+
+    .manu{
+    display: flex;
+    }
+
+    .contnt{
+        width: 400px;
+    }
+
+    .contnt2{
+        width: 400px;
+    }
+
+    .Heading1{
+        font-size: larger;
+    }
+}

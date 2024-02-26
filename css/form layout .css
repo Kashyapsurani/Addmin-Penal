@@ -1,0 +1,563 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: fixed;
+    display: flex;
+    background: #faf3fd;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-weight: weight;
+   font-style: normal;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sidebar{
+    
+    width: 14%;
+    border: 2px solid rgb(255, 255, 255);
+    height: 953px;
+    position: sticky; 
+    background: fixed;
+    top: 0; 
+}
+.logos{
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+}
+.firstlogo{
+    display: flex;
+    justify-content:start ;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.heding{
+    margin-bottom: 50px;
+}
+.hedings{
+    color: black;
+    text-decoration:none;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+a{
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+h5{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 42px;
+    font-family: "Public Sans", sans-serif;
+     font-optical-sizing: auto;
+        font-weight: weight;
+    font-style: normal;
+
+}
+
+.navbar{
+    
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.userlogos{
+    margin-left:20px ;
+    margin-right: 10px;
+
+}
+.shidesho{
+    padding: 8px 0px;
+    position: fixed;
+    top: 100px;
+    background: white;
+}
+
+.profit{
+    margin-top: 10px;
+    width: 300px;
+    padding: 4px 16px;
+    display: flex;
+    color: #7f8d9cde;
+    align-items: center;
+}
+h4{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.datasofaddmin{
+    display: flex;
+}
+.logo{
+    height: 10px;
+    margin-bottom: 80px;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: left;
+}
+.manu{
+    display: none;
+}
+
+.sarchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1000px ;
+    background: rgb(255, 255, 255);
+
+}
+.umain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.input{
+    
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.userlogoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    
+}
+
+
+/* start main css */
+
+.mainsofform{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+
+}
+.firstform{
+    width: 48%;
+    background: white;
+    padding-top: 20px;
+}
+
+.secendform{
+    width: 48%;
+    background: white;
+    padding-top: 20px;
+  
+}
+
+.h1{
+
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.nama{
+    border: 2px solid gray;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+.names{
+    border-left: none;
+    outline: none;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.p{
+    width: 200px;
+    color: #32475c99;
+}
+
+.emails{
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.email{
+    border-left: none;
+    outline: none;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+
+.tels{
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.passs{
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.tel{
+    border-left: none;
+    outline: none;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.pass{
+    border-left: none;
+    outline: none;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+
+.button{
+    width: 100px;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 180px;
+    margin-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #696Cff;
+    color: white;
+}
+
+.reset{
+    width: 50px;
+    height: 35px;
+    color: #8592A3;
+}
+
+.chak{
+    display: flex;
+    padding-left: 175px
+}
+
+/* start secnd row */
+
+.secendforms{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.firstforms{
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-top: 50px;
+    width: 47%;
+    background: white;
+    padding-top: 10px;
+}
+
+.endform{
+    margin-top: 50px;
+    padding-top: 20px;
+    background: white;
+    width: 48%;
+    background: white; 
+}
+
+.tell{
+    border-left: none;
+    outline: none;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.passl{
+    border-left: none;
+    outline: none;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+
+.button{
+    width: 100px;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 180px;
+    margin-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #696Cff;
+    color: white;
+}
+
+.reset{
+    width: 100px;
+    height: 35px;
+    color: #8592A3;
+}
+
+.chak{
+    display: flex;
+    padding-left: 175px
+}
+
+.emaill{
+    border-left: none;
+    outline: none;
+    width: 98%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.namel{
+    border-left: none;
+    outline: none;
+    width: 95%;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 16px;
+}
+
+.namesl{
+    width: 96%;
+
+}
+
+/* third lay out form */
+
+.firsetlayout{
+    padding-top: 20px;
+    width: 94%;
+    margin-left: 30px;
+    background: white;
+    margin-top: 50px;
+}
+
+.chaks{
+    display: flex;
+    padding-left: 15px
+}
+
+.namas{
+    width: 100%;
+    padding: 15px 16px;
+}
+
+.emai{
+    width:100%;
+    padding: 15px 16px;
+}
+
+.te{
+    width: 100%;
+    padding: 15px 16px;
+}
+
+.pa{
+    width:100%;
+    padding: 15px 16px;
+}
+
+.flax{
+    display: flex;
+    width: 100%;
+}
+
+.chakl{
+    display: flex;
+padding-left: 45px;
+}
+
+
+.buttons{
+    width: 100px;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #696Cff;
+    color: white;
+}
+
+.resets{
+    width: 100px;
+    height: 35px;
+    color: #8592A3;
+}
+
+
+.buttonn{
+    width: 100px;
+    border-radius: 5px;
+    height: 35px;
+    margin-left: 45px;
+    margin-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #696Cff;
+    color: white;
+}
+
+.resetn{
+    width: 100px;
+    height: 35px;
+    color: #8592A3;
+}
+
+
+@media screen and (min-width:425px) and (max-width:1024px) {
+    .sidebar{
+        width: 20%;
+        display: none;
+        position: fixed;
+        background: white;
+        top: 100px;
+    }
+    
+    .manu{  
+      display: flex;
+    }
+    .navbar{
+        width: 30%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .sarchbar{
+        display: none;
+        margin: 0%;
+    }
+
+    .mainsofform{
+        width: 110%;
+    }
+
+    .secendforms{
+        width: 110%;
+    }
+
+    .thirdform{
+        width: 111%;
+    }
+}
+
+
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    .sidebar{
+        width: 20%;
+        display: none;
+        position: fixed;
+        background: white;
+        top: 100px;
+        border: 2px solid black;
+    }
+    
+    .manu{  
+      display: flex;
+    }
+    .navbar{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .sarchbar{
+        display: none;
+        margin: 0%;
+    }
+
+    .mainsofform{
+        display: block;
+        width: 400px;
+       
+    }
+    .firstform{
+        width: 100%;
+    }
+
+    .secendforms{
+        display: block;
+        width: 400px;
+    }
+
+    .firstforms{
+        width: 100%;
+    }
+    .secendform{
+        display: block;
+        width: 100%;
+    }
+
+    .thirdform{
+        display: block;
+        width: 400px;
+    }
+
+    .endform{
+        width: 100%;
+        margin-left: 20px;
+    }
+}

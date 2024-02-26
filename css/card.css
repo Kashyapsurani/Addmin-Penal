@@ -1,0 +1,503 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: fixed;
+    display: flex;
+    background: #faf3fd;
+    box-sizing: border-box;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+       font-weight: weight;
+   font-style: normal;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sidebar{
+    
+    width: 14%;
+    border: 2px solid rgb(255, 255, 255);
+    height: 953px;
+    position: sticky; 
+    background: fixed;
+    top: 0; 
+}
+.logos{
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+}
+.firstlogo{
+    display: flex;
+    justify-content:start ;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.heding{
+    margin-bottom: 50px;
+}
+.hedings{
+    color: black;
+    text-decoration:none;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+a{
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+h5{
+    margin-top: 10px;
+    color: gray;
+    margin-left: 42px;
+    font-family: "Public Sans", sans-serif;
+     font-optical-sizing: auto;
+        font-weight: weight;
+    font-style: normal;
+
+}
+
+.navbar{
+    
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    
+    outline: none;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.userlogos{
+    margin-left:20px ;
+    margin-right: 10px;
+
+}
+.shidesho{
+    padding: 8px 0px;
+    position: fixed;
+    top: 100px;
+    background: white;
+}
+
+.profit{
+    margin-top: 10px;
+    width: 300px;
+    padding: 4px 16px;
+    display: flex;
+    color: #7f8d9cde;
+    align-items: center;
+}
+h4{
+    font-size: 16px;
+    padding-left: 20px;
+}
+.datasofaddmin{
+    display: flex;
+}
+.logo{
+    height: 10px;
+    margin-bottom: 80px;
+}
+
+.con{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: left;
+}
+.manu{
+    display: none;
+}
+
+.sarchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:1000px ;
+    background: rgb(255, 255, 255);
+
+}
+.umain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.input{
+    
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+
+.userlogoss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 5px;
+    
+}
+
+
+/* main css start */
+
+.contentairya{
+    background: white; 
+    width: 30%;
+}
+
+
+.contentes{
+    background: white;
+     border-radius: 10px;
+      width: 30%;
+}
+
+.writing{
+    display: flex;
+     justify-content: space-evenly;
+}
+
+.sedcards{
+    display: flex; padding: 20px; justify-content: space-between;
+}
+
+.maincard{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.cards1{
+    background: white;
+    border-radius: 10px;
+    height: auto;
+}
+
+.cards2{
+    background: white;
+    border-radius: 10px;
+    height: auto;
+}
+
+
+.cards3{
+    background: white;
+    border-radius: 10px;
+    height: auto;
+}
+
+.picar{
+    width: 100%;
+}
+
+.picars{
+    width: 70%;
+}
+
+h4{
+    padding: 24px;
+    font-size: 20px;
+    color: #32475C99;
+}
+
+p{
+    padding: 0px 24px 24px;
+}
+
+/* secked row */
+
+
+
+@media only screen and ( min-width:425px) and (max-width: 1024px) {
+    .sidebar{
+        width: 25%;
+     display: none;
+     position: fixed;
+     background: white;
+     top: 100px;
+    }
+
+    .manu{
+    display: flex;
+    }
+
+    
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:30%;
+        height: 60px;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+
+
+    .sarchbar{
+        display: none;
+        
+    }
+    .maincard{
+    display: block;
+    }
+
+    .cards1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .cards2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .picar{
+        width: 100%;
+    }
+
+    .cards3{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sedcards{
+        
+        width:940px;
+        display:block;
+
+    }
+
+    .writing{
+        width: 900px;
+        display: block;
+    }
+
+    .contentairya{
+        margin-bottom: 50px;
+        width: 900px;
+    }
+
+    .contentes {
+        width: 900px;
+        margin-top: 50px
+
+    }
+
+    
+}
+
+
+@media only screen and ( min-width:375px) and (max-width:425px) {
+    .sidebar{
+        width: 25%;
+     display: none;
+     position: fixed;
+     background: white;
+     top: 100px;
+    }
+
+    .manu{
+    display: flex;
+    }
+
+    
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+        height: 60px;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+
+
+    .sarchbar{
+        display: none;
+        
+    }
+    .maincard{
+    display: block;
+    }
+
+    .cards1{
+        width: 100%;
+       display: block;
+        
+    }
+
+    .cards2{
+        width:100%;
+        display:block;
+        
+    }
+
+    .picar{
+        width: 100%;
+    }
+
+    .cards3{
+        width: 100%;
+        display: block;
+    }
+
+    .sedcards{
+        
+        width:100%;
+        display:block;
+
+    }
+
+    .macitem{
+        width: 380px;
+
+    }
+
+    .writing{
+        width: 410px;
+        display: block;
+    }
+
+    .contentairya{
+        margin-bottom: 50px;
+        width: 410px;
+    }
+
+    .contentes {
+        width: 410px;
+        margin-top: 50px
+
+    }
+
+    .star{
+        width: 100px;
+    }
+    
+    
+}
+
+
+@media only screen and ( min-width:320px) and (max-width:365px) {
+    .sidebar{
+        width: 25%;
+     display: none;
+     position: fixed;
+     background: white;
+     top: 100px;
+    }
+
+    .manu{
+    display: flex;
+    }
+
+    
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:100%;
+        height: 60px;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        outline: none;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+
+
+    .sarchbar{
+        display: none;
+        
+    }
+    .maincard{
+    display: block;
+    }
+
+    .cards1{
+        width: 100%;
+       display: block;
+        
+    }
+
+    .cards2{
+        width:100%;
+        display:block;
+        
+    }
+
+    .picar{
+        width: 100%;
+    }
+
+    .cards3{
+        width: 100%;
+        display: block;
+    }
+
+    .sedcards{
+        
+        width:100%;
+        display:block;
+
+    }
+
+    .macitem{
+        width: 380px;
+
+    }
+
+    .writing{
+        width: 410px;
+        display: block;
+    }
+
+    .contentairya{
+        margin-bottom: 50px;
+        width: 410px;
+    }
+
+    .contentes {
+        width: 410px;
+        margin-top: 50px
+
+    }
+
+    .star{
+        width: 100px;
+    }
+    
+    
+}

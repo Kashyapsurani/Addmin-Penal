@@ -1,0 +1,86 @@
+body{
+    background: #f5f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background:white;
+    border-radius: 20px;
+    padding: 30px;
+}
+p{
+    font-size: 16px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    width: 300px;
+    height: 30px;
+}
+.input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+}
+.forget{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+h4{
+    margin-left:70px ;
+}
+.inputs{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(118, 5, 255) ;
+}
+    
+a{
+    font-style: normal;
+    color: rgb(118, 5, 255);
+    text-decoration:none;
+}
+p{
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: rgb(156, 156, 156);
+}
+.checkbox{
+    margin-left: 20px;
+}
+.inputss{
+    height: 10px;
+    width: 10px;
+    background:white ;
+}
+.inputs{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(107, 135, 246) ;
+    
+}
+
+.inputs:hover{
+    background-color:rgb(132, 42, 243) ;
+}
+
+
+
